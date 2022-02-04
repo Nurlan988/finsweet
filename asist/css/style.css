@@ -913,3 +913,59 @@ margin-bottom: 16px;
     margin-left: 0;
   }
 }
+
+/*------------------------CONTACT US----------------------------------------------*/
+
+#contact-form{
+  padding-bottom: 128px;
+}
+.contact-form-content{
+  display: flex;  
+}
+.contact-form-left-content {
+  position: relative;
+}
+.contact-form-left-content-image{
+  background-image: url(/asist/image/countact-us.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.contact-form-left-content-overlay{
+  position: absolute;
+  background-color: rgba(28, 30, 83, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.contact-form-left-content-title {
+  padding: 96px;
+  padding-bottom: 24px;
+  color: #fff;
+}
+.contact-form-left-content-text {
+  padding: 96px;
+  padding-bottom: 261px;
+  color: #fff;
+}
+.contact-form-right-content {
+}
+.contact-form-right-content-title {
+}
+.contact-form-right-content-text {
+}
+.contact-form-right-content-form {
+}
+.contact-form-right-content-login {
+}
+.contact-form-right-content-email {
+}
+.contact-form-right-content-url {
+}
+.contact-form-right-content-button {
+}
+.contact-form-right-content-link {
+}
