@@ -7,14 +7,6 @@ $('.owl-carousel').owlCarousel({
     ],
     dots: false,
     mouseDrag: false,
-    touchDrag: false,
-    items:1,
-    responsive : {
-        0: {
-            touchDrag: true,
-        },
-        1024: {
-            touchDrag: false,
-        }
-    }
+    touchDrag: true,
+    items:1
 })
