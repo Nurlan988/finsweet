@@ -891,9 +891,8 @@ img {
 .faq-questions-icon {
   margin-right: 0;
   margin-left: auto;
-}
-.faq-questions-icon{
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .faq-questions-icon span{
   display: inline-block;
