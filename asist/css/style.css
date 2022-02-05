@@ -352,6 +352,10 @@ img {
   }
 }
 @media (max-width:566px){
+	.hero-title{
+		font-size: 30px;
+		margin-bottom: 20px;
+	  }
   .hero-left-image img{
     max-width: 100%;
   }
@@ -408,7 +412,14 @@ img {
   .servise-servise-reviews-clients {
     margin-top: 20px;
   }
-
+}
+@media (max-width:785px) {
+	.services-title {
+		font-size: 35px;
+	}
+	.servise-reviews-clients-title{
+		font-size: 30px;
+	}
 }
 
 /*-----------------PROJECTS-----------------------------------------------------------*/
@@ -830,8 +841,11 @@ img {
   }
 }
 @media (max-width: 785px) {
-  .reviews-clients-text{
-    font-size: 24px;
+	.reviews-title{
+		font-size: 35px;
+	}
+	.reviews-clients-text{
+    font-size: 20px;
   }
 }
 
@@ -916,12 +930,20 @@ margin-bottom: 16px;
     margin-left: 0;
   }
 }
+@media (max-width: 785px) {
+	.faq-title {
+		font-size: 35px;
+	}
+	.faq-questions-question {
+		font-size: 20px;
+	}
+	.faq-questions-text{
+		font-size: 16px;
+	}
+}
 
 /*------------------------CONTACT US----------------------------------------------*/
 
-#contact-form{
-  padding-bottom: 128px;
-}
 .contact-form-content{
   display: flex;  
 }
@@ -1048,5 +1070,225 @@ margin-bottom: 16px;
 	.contact-form-right-content-container{
 		padding-left: 48px;
 		padding-right: 48px;
+	}
+}
+
+/*------------------------------BLOG----------------------------------*/
+
+#blog{
+	padding: 128px 0;
+}
+.blog-title {
+	margin-bottom: 64px;
+}
+.blog-content {
+	display: flex;
+	justify-content: space-between;
+}
+.blog-box {
+	margin-right: 32px;
+}
+.blog-box:last-child{
+	margin-right: 0;
+}
+.blog-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.blog-box-date {
+	margin-top: 40px;
+	opacity: 0.7;
+}
+.blog-box-description {
+	margin: 16px 0;
+}
+.blog-box-sub-text {
+	opacity: 0.7;
+	margin-bottom: 32px;
+	width: 101%;
+}
+.blog-box-link a{
+	display: flex;
+	align-items: center;
+	color: var(--dark-blue);
+}
+.blog-box-link a img{
+	margin-left: 16px;
+}
+@media (max-width: 1199px) {
+	.blog-box {
+		margin-right: 24px;
+	}
+
+}
+@media (max-width: 991px){
+	.blog-content {
+		flex-wrap: wrap;
+	}
+	.blog-box{
+		width: 48%;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 785px) {
+	.blog-box{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+}
+
+/*---------------------------------FOOTER---------------------------------*/
+
+.footer-main {
+	background-color: var(--tint-blue);
+}
+.footer-content {
+	margin-top: 96px;
+	display: flex;
+}
+.footer-content-left {
+	width: 400px;
+	height: 100%;
+}
+.footer-content-left-lable {
+	margin-top: 22px;
+	color: #fff;
+	opacity: 0.8;
+}
+.footer-content-right {
+	margin-left: 260px;
+	width: 400px;
+	height: 100%;
+}
+.footer-content-right-title {
+	color: #fff;
+	margin-bottom: 14px;
+}
+.footer-content-right-lable {
+	color: var(--grey);
+	opacity: 0.8;
+	margin-bottom: 28px;
+}
+.fotter-content-right-sosial ul{
+	display: flex;
+	justify-content: space-between;
+	width: 144px;
+}
+.fotter-content-right-sosial ul li a{
+	color: #fff;
+}
+.footer-contacts {
+	width: 517px;
+	background-color: var(--yellow);
+	padding: 0 37px;
+	display: flex;
+}
+.footer-contacts-email {
+	margin-top: 17px;
+	margin-bottom: 16px;
+}
+.footer-contacts-email-text,
+.footer-contacts-call-text {
+	margin-bottom: 1px;
+}
+.footer-contacts-email-link,
+.footer-contacts-call-link {
+	color: var(--dark-blue);
+}
+.footer-contacts-call {
+	margin-top: 17px;
+	margin-left: 29px;
+}
+.footer-low {
+	padding: 32px 0;
+}
+.footer-low-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-low-content-navlist ul{
+	display: flex;
+}
+.footer-low-content-navlist ul li{
+	margin-right: 32px;
+}
+.footer-low-content-navlist ul li:last-child{
+	margin-right: 0;
+}
+.footer-low-content-navlist ul li a{
+	color: var(--dark-blue);
+}
+@media (max-width: 991px) {
+	.footer-content{
+		margin-bottom: 20px;
+	}
+	.footer-content-right{
+		margin-left: 130px;
+	}
+	.footer-low-content-navlist ul li{
+		margin-right: 16px;
+	}
+}
+@media (max-width: 785px) {
+	.footer-content-left-logo img{
+		width: 100px;
+	}
+	.footer-content-left-lable,
+	.footer-content-right-lable,
+	.footer-contacts-email-link,
+	.footer-contacts-call-link{
+		font-size: 14px;
+	}
+	.footer-content-right{
+		margin-left: 60px;
+	}
+	.footer-contacts{
+		width: 100%;
+		justify-content: space-between;
+	}
+	.footer-contacts-email,
+	.footer-contacts-call{
+		margin: 10px;
+	}
+	.footer-content-right-title{
+		font-size: 35px;
+	}
+	.footer-contacts-email-text, .footer-contacts-call-text{
+		font-size: 14px;
+	}
+	.footer-low-content{
+		display: block;
+	}
+	.footer-low-content-navlist{
+		margin-top: 20px;
+	}
+	.footer-low-content-navlist ul{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 499px) {
+	.footer-content{
+		display: block;
+	}
+	.footer-content-left{
+		height: auto;
+	}
+	.footer-content-left{
+		width: auto;
+	}
+	.footer-content-right{
+		margin: 0;
+		margin-top: 30px;
+		width: auto;
+	}
+	.footer-contacts{
+		display: block;
+	}
+	.footer-low-content{
+		padding: 0 15px;
 	}
 }
