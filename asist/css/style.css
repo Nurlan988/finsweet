@@ -188,12 +188,12 @@ img {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--grey);
-  width: 520px;
+  width: 50%;
   z-index: 3;
   box-shadow: 0px 5px 8px rgb(0 0 0 / 20%);
   display: none;
 }
-.new-nav-lik {
+.new-nav-link {
   position: relative;
   padding: 20px;
   cursor: pointer;
@@ -202,7 +202,7 @@ img {
   display: block;
   border-bottom: 1px solid #eee;
 }
-.new-nav-lik:hover{
+.new-nav-link:hover{
   color: var(--tint-blue);
 }
 
@@ -247,7 +247,7 @@ img {
 }
 @media (max-width:566px){
   .new-sub-menu{
-    width: 340px;
+    width: 75%;
   }
 }
 
@@ -871,6 +871,7 @@ img {
   display: flex;
   border-bottom: 2px solid #ECECF1;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 .faq-questions:last-child{
   border: none;
@@ -892,7 +893,6 @@ img {
   margin-right: 0;
   margin-left: auto;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 .faq-questions-icon span{
   display: inline-block;
