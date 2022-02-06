@@ -40,7 +40,6 @@ const faqQuestions = document.querySelectorAll('.faq-questions');
 
 faqQuestions.forEach(toggleEvent => {
 	toggleEvent.addEventListener('click', () =>{
-		faqQuestions.forEach(event => event.classList.remove('active'));
-		toggleEvent.classList.add('active');
+		toggleEvent.classList.toggle('active');
 	})
 })
