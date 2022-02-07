@@ -324,6 +324,16 @@ img {
     font-size: 14px;
     margin-bottom: 15px;
   }
+  .hero-buttons{
+    display: block;
+  }
+  .hero-transparent-button{
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+  .hero-transparent-button a{
+    font-size: 14px;
+  }
   .hero-yellow-button a{
     padding: 8px 16px;
     font-size: 16px;
@@ -344,6 +354,9 @@ img {
     padding: 12px 24px;
     font-size: 16px;
   }
+  .hero-transparent-button{
+    margin-left: 24px;
+   }
   .hero-left-image img{
     margin-top: 50px;
     max-width: 500px;
@@ -685,7 +698,8 @@ img {
   margin: 0 auto;
   margin-bottom: 47px;
 }
-.features-box {
+.features-box,
+.section-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 32px;
@@ -693,54 +707,66 @@ img {
 }
 .features-reviews-clients {
   background-color: #fff;
+}
+.section-reviews-clients{
   padding: 58px 32px 48px 48px;
 }
-.features-reviews-clients-icon {
+.section-reviews-clients-icon {
   margin-bottom: 22px;
 }
-.features-reviews-clients-title {
+.section-reviews-clients-title {
   margin-bottom: 12px;
-  line-height: 150%;
 }
-.features-reviews-clients-text {
+.section-reviews-clients-text {
   opacity: 0.7;
 }
 @media (max-width: 1199px) {
-  .features-box {
+  .features-title {
+    font-size: 40px;
+  }
+  .features-box,
+  .section-box {
     grid-column-gap: 20px;
     grid-row-gap: 24px;
   }
-  .features-reviews-clients {
+  .section-reviews-clients {
     padding: 40px 20px 40px 35px;
   }
 }
 @media (max-width: 991px) {
-  .features-reviews-clients-title {
-    max-width: 530px;
-    font-size: 40px;
+  .features-title {
+    font-size: 36px;
   }
-  .features-box {
+  .section-reviews-clients-title {
+    max-width: 530px;
+    font-size: 35px;
+  }
+  .features-box,
+  .section-box {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 24px;
   }
-  .features-reviews-clients {
+  .section-reviews-clients {
     padding: 40px 15px 20px 35px;
   }
 }
 @media (max-width:785px){
-  .features-reviews-clients-title {
-    max-width: 410px;
-    font-size: 35px;
+  .features-title {
+    font-size: 30px;
   }
-  .features-reviews-clients-icon {
+  .section-reviews-clients-title {
+    max-width: 410px;
+    font-size: 30px;
+  }
+  .section-reviews-clients-icon {
     margin-bottom: 12px;
   }
-  .features-reviews-clients-title {
+  .section-reviews-clients-title {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .features-reviews-clients {
+  .section-reviews-clients {
     padding: 30px 10px 15px 25px;
   }
 }
@@ -752,11 +778,12 @@ img {
     max-width: 320px;
     font-size: 24px;
   }
-  .features-box {
+  .features-box,
+  .section-box {
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
   }
-  .features-reviews-clients {
+  .section-reviews-clients {
     padding: 30px 10px 20px 25px;
   }
 }
@@ -889,6 +916,7 @@ img {
   margin-right: 0;
   margin-left: auto;
   transition: all 0.3s ease;
+  padding-left: 10px;
 }
 .faq-questions-icon span{
   display: inline-block;
@@ -900,6 +928,7 @@ img {
   font-weight: 300;
   margin-right: 0;
   margin-left: auto;
+  transition: all 0.3s ease;
 }
 .faq-questions.active .faq-questions-question{
 margin-bottom: 16px;
@@ -910,7 +939,7 @@ margin-bottom: 16px;
 }
 .faq-questions.active .faq-questions-icon span{
   transition: all 0.3s ease;
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(10%, 10%);
 }
 @media (max-width:1399px) {
 	.faq-box {
@@ -978,7 +1007,6 @@ margin-bottom: 16px;
 .contact-form-left-content-title {
   margin-bottom: 24px;
   color: #fff;
-  width: 67%;
 }
 .contact-form-left-content-text {
   color: #fff;
