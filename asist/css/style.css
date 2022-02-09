@@ -2181,8 +2181,7 @@ display: flex;
   padding: 16px;
   width: 230px;
 }
-.button-yellow {
-}
+
 @media (max-width:991px) {
   .refer-content{
     width: 75%;
@@ -2212,6 +2211,169 @@ display: flex;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------------Read Case Studies-------------------------------------------------------------*/
+/*--------------------------------------------------CASE STUDIES-------------------------------------------------------------*/
 
-/*---------------------------------------------------------*/
+/*----------------------CASE HERO-----------------------------------*/
+
+#case-hero{
+  margin-top: 220px;
+}
+.case-hero-header {
+  max-width: 61%;
+  margin-bottom: 16px;
+}
+.case-hero-sup-title {
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+.case-hero-text {
+  max-width: 77%;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+.case-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.case-hero-info {
+  margin-top: 48px;
+  border-bottom: 1px solid rgba(40, 41, 56, 0.3);
+}
+.case-hero-info ul{
+  display: flex;
+}
+.case-hero-info ul li:nth-child(2){
+  margin-left: 14.4%;
+  margin-right: 13.55%;
+}
+.case-hero-info ul li .case-hero-info-lable {
+  opacity: 0.8;
+}
+.case-hero-info ul li .case-hero-info-text {
+  margin-top: 4px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 991px) {
+  .case-hero-info ul li .case-hero-info-text{
+    font-size: 20px;
+  }
+}
+@media (max-width: 785px) {
+  .case-hero-header{
+    width: 80%;
+  }
+  .case-hero-sup-title{
+    font-size: 20px;
+  }
+  .case-hero-title{
+    font-size: 35px;
+  }
+  .case-hero-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 566px) {
+  .case-hero-header{
+    width: 100%;
+  }
+  .case-hero-sup-title{
+    font-size: 16px;
+  }
+  .case-hero-title{
+    font-size: 24px;
+  }
+  .case-hero-info ul{
+    display: block;
+  }
+  .case-hero-info ul li:nth-child(2){
+   margin: 0;
+  }
+  .case-hero-info ul li .case-hero-info-text {
+    font-size: 14px;
+  }
+  .case-hero-info ul li .case-hero-info-text{
+    font-size: 18px;
+  }
+}
+
+/*------------------ARTICLE--------------------------------*/
+
+#article{
+  margin: 96px 0;
+}
+.article-title {
+  margin-bottom: 12px;
+}
+.article-text {
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+ul.article-list li{
+  text-align: justify;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 16px;
+}
+ul.article-list li:last-child{
+  margin-bottom: 0;
+}
+ul.article-list li span{
+  opacity: 0.7;
+}
+.article-image {
+  margin: 64px 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:785px) {
+  .article-title{
+    font-size: 30px;
+  }
+  .article-text,
+  ul.article-list li{
+    font-size: 14px;
+  }
+}
+
+/*--------------------KEYWORDS-----------------------*/
+
+.keywords-content{
+  display: flex;
+  align-items: center;
+}
+.keywords-lable {
+  color: var(--royal-blue);
+  margin-right: 53px;
+}
+.keywords-content ul{
+  display: flex;
+  border-top: 1px solid rgba(40, 41, 56, 0.2);
+  border-bottom: 1px solid rgba(40, 41, 56, 0.2);
+  padding: 24px 0;
+}
+.keywords-content ul li{
+  margin-right: 53px;
+}
+.keywords-content ul li:last-child{
+  margin-right: 0;
+}
+.keywords-content ul li a{
+  color: var(--dark-blue);
+  opacity: 0.7;
+}
+
+@media (max-width:1399px) {
+  .keywords-content ul li{
+    margin-right: 35px;
+  } 
+}
+@media (max-width:1199px){
+  .keywords-content ul{
+    flex-wrap: wrap;
+  }
+}
