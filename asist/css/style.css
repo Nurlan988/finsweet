@@ -2485,3 +2485,58 @@ ul.article-list li span{
     font-size: 24px;
   }
 }
+
+/*--------------------------------BLOG BODY--------------------------------*/
+
+#blog-body{
+  margin-top: 48px;
+  margin-bottom: 128px;
+}
+.blog-body-title {
+  margin-bottom: 32px;
+}
+.blog-body-title:nth-of-type(2){
+  margin-top: 40px;
+}
+.blog-body-text {
+  opacity: 0.7;
+}
+.blog-body-list {
+  margin: 24px 0;
+}
+.blog-body-list li{
+  margin-bottom: 12px;
+  list-style: disc;
+  list-style-position: inside;
+}
+.blog-body-list li:last-child{
+  margin-bottom: 0;
+}
+.blog-body-list li span{
+  opacity: 0.7;
+}
+.blog-body-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+@media (max-width:991px) {
+  .blog-body-title{
+    font-size: 35px;
+  }
+}
+@media (max-width:785px) {
+  .blog-body-title{
+    font-size: 28px;
+  }
+  .blog-body-text{
+    font-size: 14px;
+  }
+}
+@media (max-width:566px) {
+  .blog-body-title{
+    font-size: 20px;
+  }
+}
