@@ -283,9 +283,11 @@ img {
 	opacity: 0.8;
 	margin-bottom: 28px;
 }
-.fotter-content-right-sosial ul{
-	display: flex;
+.sosial-box ul{
+  display: flex;
 	justify-content: space-between;
+}
+.fotter-content-right-sosial ul{
 	width: 144px;
 }
 .fotter-content-right-sosial ul li a{
@@ -1992,3 +1994,224 @@ display: flex;
     width: 90%;
   }
 }
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------WORK------------------------------------------------------------------*/
+
+/*-------------------------------WORK-HERO--------------------------*/
+
+#work-hero{
+  padding-top: 198px;
+  padding-bottom: 96px;
+  background-color:  var(--grey);
+}
+.work-hero-content{
+  text-align: center;
+  width: 57%;
+  margin: 0 auto;
+}
+.work-hero-sup-title,
+.work-hero-text {
+  opacity: 0.7;
+}
+.work-hero-title {
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.work-hero-sosial {
+  margin-top: 32px;
+}
+.work-hero-sosial ul{
+  width: 147px;
+  margin: 0 auto;
+}
+.work-hero-sosial ul li a{
+  color: var(--dark-blue);
+}
+@media (max-width:991px) {
+  .work-hero-content{
+    width: 75%;
+  }
+  .work-hero-title {
+    font-size: 40px;
+  }
+}
+@media (max-width:785px) {
+  .work-hero-content{
+    width: 85%;
+  }
+  .work-hero-title {
+    font-size: 35px;
+  }
+  .work-hero-sup-title,
+  .work-hero-text {
+    font-size: 14px;  
+  }
+}
+@media (max-width:785px) {
+  .work-hero-content{
+    width: 90%;
+  }
+  .work-hero-title {
+    font-size: 30px;
+  }
+}
+
+/*------------------PORTFOLIO------------------------------------*/
+
+#portfolio{
+  margin-top: 96px;
+}
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.portfolio-nav ul{
+  display: flex;
+}
+.portfolio-nav ul li{
+  margin-right: 32px;
+}
+.portfolio-nav ul li:last-child{
+  margin-right: 0;
+}
+.portfolio-nav ul li a{
+  color: var(--dark-blue);
+  opacity: 0.7;
+}
+.portfolio-nav ul li a:hover{
+  color: var(--royal-blue);
+  opacity: 1;
+}
+.portfolio-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 34px;
+  row-gap: 64px;
+}
+.portfolio-item{
+  max-width: 630px;
+}
+.portfolio-item-image{
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio-item-title {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.portfolio-item-text {
+  opacity: 0.7;
+  text-align: justify;
+}
+.portfolio-item-link {
+  color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.portfolio-item:nth-child(5) .portfolio-item-link,
+.portfolio-item:nth-child(6) .portfolio-item-link{
+  margin-top: 30px;
+}
+.portfolio-item-link img{
+  margin-left: 16px;
+}
+@media (max-width: 991px) {
+  .portfolio-nav ul li{
+    margin-right: 20px;
+  }
+  .portfolio-box {
+    column-gap: 20px;
+    row-gap: 64px;
+  }
+  .portfolio-item-title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 785px) {
+  .portfolio-box {
+    display: block;
+  }
+  .portfolio-item{
+    margin-bottom: 64px;
+  }
+  .portfolio-item:last-child{
+    margin-bottom: 0;
+  }
+  .portfolio-item-title {
+    font-size: 25px;
+  }
+  .portfolio-item-text,
+  .portfolio-item-link{
+    font-size: 14px;
+  }
+}
+@media (max-width: 566px){
+  .portfolio-nav ul{
+    flex-wrap: wrap;
+  }
+}
+
+/*--------------------CONTACT US REFER-------------------------*/
+
+#contact-us-refer{
+  margin: 128px 0;
+}
+.refer-content {
+  text-align: center;
+  width: 57%;
+  margin: 0 auto;
+}
+.refer-content-text {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 77%;
+}
+.refer-content-button {
+  margin: 0 auto;
+  color: var(--dark-blue);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 178%;
+  padding: 16px;
+  width: 230px;
+}
+.button-yellow {
+}
+@media (max-width:991px) {
+  .refer-content{
+    width: 75%;
+  }
+  .refer-content-title {
+    font-size: 40px;
+  }
+}
+@media (max-width:785px) {
+  .refer-content-content{
+    width: 85%;
+  }
+  .refer-content-title {
+    font-size: 35px;
+  }
+  .refer-content-text {
+    font-size: 14px;  
+  }
+}
+@media (max-width:785px) {
+  .refer-content{
+    width: 90%;
+  }
+  .refer-content-title {
+    font-size: 30px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------Read Case Studies-------------------------------------------------------------*/
+
+/*---------------------------------------------------------*/
