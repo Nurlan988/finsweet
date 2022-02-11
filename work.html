@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work</title>
-    <link rel="stylesheet" href="asist/plagins/font-awsome/font-awesome.min.css">
-    <link rel="stylesheet" href="asist/css/guide.css">
-    <link rel="stylesheet" href="asist/css/style.css">
+    <link rel="stylesheet" href="assets/plagins/font-awsome/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/guide.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
@@ -17,29 +17,29 @@
                     <div class="col-lg-12">
                     <div class="nav-menu">
                         <a href="#" class="logo">
-                            <img src="asist/image/Logo.svg" alt="logo">
+                            <img src="assets/image/Logo.svg" alt="logo">
                         </a>
                         <ul class="nav">
                             <li>
-                                <a href="#" class="nav-link .lable-two">Home</a>
+                                <a href="index.html" class="nav-link .lable-two">Home</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link .lable-two">About us </a>
+                                <a href="about-us.html" class="nav-link .lable-two">About us </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link .lable-two">Features </a>
+                                <a href="features.html" class="nav-link .lable-two">Features </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link .lable-two">Pricing</a>
+                                <a href="pricing.html" class="nav-link .lable-two">Pricing</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link .lable-two">FAQ</a>
+                                <a class="nav-link .lable-two">FAQ</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link .lable-two">Blog </a>
+                                <a href="blogPage.html" class="nav-link .lable-two">Blog </a>
                             </li>
                             <li class="last-list-menu">
-                                <a href="#" class="nav-link .lable-two">Contact us</a>
+                                <a href="contact-us.html" class="nav-link .lable-two">Contact us</a>
                             </li>
                         </ul>
                         <a class="trigger-menu" onclick="openMenu()">
@@ -105,57 +105,99 @@
                     <nav class="portfolio-nav">
                         <ul>
                             <li>
-                                <a href="#">All</a>
+                                <a class="active" data-target="#all">All</a>
                             </li>
                             <li>
-                                <a href="#">UI Design</a>
+                                <a data-target="#ui">UI Design</a>
                             </li>
                             <li>
-                                <a href="#">Webflow Design</a>
+                                <a data-target="#webflow">Webflow Design</a>
                             </li>
                             <li>
-                                <a href="#">Figma Design</a>
+                                <a data-target="#figma">Figma Design</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="row">
-                    <div class="portfolio-box">
+                    <div class="portfolio-box active" id="all">
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio1.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio1.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 1</h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio2.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio2.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 2</h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio3.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio3.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 3</h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio4.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio4.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 4</h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio5.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio5.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 5</h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                         <div class="portfolio-item">
-                            <img class="portfolio-item-image" src="/asist/image/portfolio6.jpg" alt="portfolio">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio6.jpg" alt="portfolio">
                             <h3 class="portfolio-item-title heading-three">Template 6   </h3>
                             <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/asist/image/Arrow-right-black.svg" alt="Arrow"></a>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box" id="ui">
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio2.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 2</h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio1.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 1</h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box" id="webflow">
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio3.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 3</h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio4.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 4</h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box" id="figma">
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio5.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 5</h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
+                        </div>
+                        <div class="portfolio-item">
+                            <img class="portfolio-item-image" src="/assets/image/portfolio6.jpg" alt="portfolio">
+                            <h3 class="portfolio-item-title heading-three">Template 6   </h3>
+                            <p class="portfolio-item-text">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                            <a href="case.html" class="portfolio-item-link lable-two">View Portfolio <img src="/assets/image/Arrow-right-black.svg" alt="Arrow"></a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +222,7 @@
 							<div class="footer-content-left">
 								<div class="footer-content-left-logo">
 									<a href="#">
-										<img src="asist/image/Logo-footer.svg" alt="Logo">
+										<img src="assets/image/Logo-footer.svg" alt="Logo">
 									</a>
 								</div>
 								<p class="footer-content-left-lable lable-two">
@@ -234,6 +276,9 @@
 					<div class="row">
 						<div class="footer-low-content">
 							<div class="footer-low-copyright lable-two">Copyright 2021, Finsweet.com</div>
+                            <div class="footer-low-privacy">
+                                <a href="/privacyPolicy.html" class="lable-two">Privacy</a>
+                            </div>
 							<nav class="footer-low-content-navlist">
 								<ul>
 									<li>
@@ -263,8 +308,8 @@
 		</footer>
     </div>
 
-    <script src="asist/js/jquery.js"></script>
-    <script src="asist/plagins/owl-carusel/owl.carousel.min.js"></script>
-    <script src="asist/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/plagins/owl-carusel/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
