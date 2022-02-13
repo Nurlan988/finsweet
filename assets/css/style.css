@@ -221,7 +221,7 @@ img {
 
 @media (max-width:1199px) {
   .nav-menu ul.nav a.nav-link{
-    margin: 0 12px;
+    padding: 8px 12px;
   }
   .nav-menu ul.nav .last-list-menu{
     margin-left: 16px;
@@ -235,7 +235,7 @@ img {
     max-width: 110px;
   }
   .nav-menu ul.nav a.nav-link{
-    margin: 0 8px;
+    padding: 6px 8px;
   }
   .nav-menu ul.nav .last-list-menu{
     margin-left: 12px;
@@ -1160,7 +1160,7 @@ margin-bottom: 16px;
   height: 100%;
 }
 .contact-form-left-content-image{
-  background-image: url(/asist/image/countact-us.jpg);
+  background-image: url(/assets/image/countact-us.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
