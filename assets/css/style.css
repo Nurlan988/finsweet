@@ -1538,6 +1538,10 @@ margin-bottom: 16px;
   display: flex;
   align-items: center;
 }
+.post-right-row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
 .post-content {
   width: 91%;
   opacity: 0;
@@ -1613,7 +1617,8 @@ margin-bottom: 16px;
   .post-right{
       display: block;
   }   
-  .post-left .post-image img{
+  .post-left .post-image img,
+  .post-right .post-image img{
       margin-top: 30px;
   }
   .post-right .post-content{
