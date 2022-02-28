@@ -2145,7 +2145,6 @@ display: flex;
 .portfolio-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   column-gap: 34px;
   row-gap: 64px;
   display: none;
@@ -2195,7 +2194,7 @@ display: flex;
 }
 @media (max-width: 785px) {
   .portfolio-box {
-    display: block;
+    grid-template-columns: 1fr;
   }
   .portfolio-item{
     margin-bottom: 64px;
